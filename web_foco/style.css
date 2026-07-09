@@ -918,13 +918,28 @@ a.site-footer__link:hover{ color:#E0812B; }
 /* ---------- TESTIMONIOS placeholder ---------- */
 
 .course-testimonials{
-  background:#000; text-align:center;
-  padding:3.6vw 6vw; border-top:1px solid #2a2520; border-bottom:1px solid #2a2520;
+  background:#0d0c0b;
+  padding:4vw 6vw;
+  text-align:center;
 }
-.course-testimonials svg{ width:2.4vw; height:2.4vw; min-width:28px; color:#4a3f2f; margin-bottom:1vw; }
+.course-testimonials__label{
+  font-family:'Poppins',sans-serif; font-weight:600;
+  font-size:clamp(11px,1vw,15px); letter-spacing:0.12em; color:#E0812B;
+  margin-bottom:0.9em;
+}
+.course-testimonials__card{
+  max-width:620px; margin:0 auto;
+  border:1px solid #2a2520; border-radius:14px;
+  padding:2.6vw 2.4vw;
+}
+.course-testimonials svg{ width:2.2vw; height:2.2vw; min-width:26px; color:#E0812B; margin-bottom:1.1vw; }
+.course-testimonials h3{
+  font-family:'Lora',serif; font-weight:600;
+  font-size:clamp(18px,1.9vw,26px); color:#f5f2ec; margin-bottom:0.6vw;
+}
 .course-testimonials p{
-  font-family:'Poppins',sans-serif; font-style:italic; font-size:clamp(13px,1.2vw,17px);
-  color:#7a7469; max-width:520px; margin:0 auto;
+  font-family:'Poppins',sans-serif; font-size:clamp(12.5px,1.05vw,15.5px);
+  line-height:1.55; color:#a8a399; max-width:480px; margin:0 auto;
 }
 
 /* ---------- PRECIO + RESERVA ---------- */
@@ -1015,4 +1030,110 @@ a.site-footer__link:hover{ color:#E0812B; }
 }
 @media (max-width:560px){
   .course-includes__grid{ grid-template-columns:1fr; }
+}
+
+/* ---------- NAV COMPARTIDO (todas las páginas) ---------- */
+
+.site-nav{
+  display:flex; justify-content:space-between; align-items:center;
+  padding:1.7vw 2.2vw;
+  background:#000;
+  border-bottom:1px solid #1a1712;
+}
+.site-nav__logo{
+  display:inline-flex; align-items:baseline; gap:0.6vw; text-decoration:none;
+}
+.site-nav__logo span:first-child{
+  font-family:'Poppins',sans-serif; font-weight:800;
+  font-size:clamp(18px,1.7vw,26px); color:#E0812B; letter-spacing:-1px;
+}
+.site-nav__logo span:last-child{
+  font-family:'Poppins',sans-serif; font-weight:500;
+  font-size:clamp(8px,0.68vw,10.5px); letter-spacing:0.22em; color:#E0812B;
+}
+.site-nav__links{ display:flex; align-items:center; gap:2vw; }
+.site-nav__links a{
+  font-family:'Poppins',sans-serif; font-weight:500;
+  font-size:clamp(12px,1vw,15px); color:#c9c4bc; text-decoration:none;
+  transition: color 0.2s ease;
+}
+.site-nav__links a:hover{ color:#E0812B; }
+.site-nav__links a.is-active{ color:#E0812B; }
+
+@media (max-width:640px){
+  .site-nav{ flex-direction:column; gap:12px; align-items:flex-start; }
+  .site-nav__links{ gap:20px; }
+}
+
+/* ---------- CATÁLOGO DE PROGRAMAS ---------- */
+
+.catalog-hero{
+  background:#000; padding:3.6vw 6vw 2.4vw; text-align:center;
+}
+.catalog-hero h1{
+  font-family:'Lora',serif; font-weight:600;
+  font-size:clamp(32px,4.4vw,58px); color:#f5f2ec; margin-bottom:0.5vw;
+}
+.catalog-hero p{
+  font-family:'Poppins',sans-serif; font-size:clamp(13px,1.3vw,18px);
+  color:#b7b2a9; max-width:560px; margin:0 auto;
+}
+.catalog-group{ background:#000; padding:0 6vw 4vw; }
+.catalog-group__label{
+  display:flex; align-items:center; gap:1vw;
+  font-family:'Poppins',sans-serif; font-weight:600;
+  font-size:clamp(11px,1vw,15px); letter-spacing:0.12em; color:#E0812B;
+  margin-bottom:1.6vw; padding-top:2vw;
+}
+.catalog-group__label::after{
+  content:''; flex:1; height:1px; background:#2a2520;
+}
+.catalog-grid{
+  display:grid; grid-template-columns:repeat(4,1fr); gap:1.4vw;
+}
+.catalog-empty{
+  border:1px dashed #2a2520; border-radius:10px; padding:2.4vw;
+  text-align:center;
+}
+.catalog-empty p{
+  font-family:'Poppins',sans-serif; font-style:italic;
+  font-size:clamp(12.5px,1.1vw,16px); color:#7a7469;
+}
+
+@media (max-width:900px){ .catalog-grid{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:560px){ .catalog-grid{ grid-template-columns:1fr; } }
+
+/* ---------- BIO DEL INSTRUCTOR ---------- */
+
+.instructor{
+  background:#0d0c0b; padding:4vw 6vw;
+  display:grid; grid-template-columns:0.55fr 1.45fr; gap:3vw; align-items:center;
+  max-width:1200px; margin:0 auto;
+}
+.instructor__photo{
+  width:100%; aspect-ratio:1/1; border-radius:12px; object-fit:cover;
+  filter:grayscale(15%);
+}
+.instructor__label{
+  font-family:'Poppins',sans-serif; font-weight:600;
+  font-size:clamp(11px,1vw,15px); letter-spacing:0.12em; color:#E0812B;
+  margin-bottom:0.8em;
+}
+.instructor h2{
+  font-family:'Lora',serif; font-weight:600;
+  font-size:clamp(24px,2.6vw,36px); color:#f5f2ec; margin-bottom:0.6vw;
+}
+.instructor p{
+  font-family:'Poppins',sans-serif; font-size:clamp(13px,1.15vw,17px);
+  line-height:1.6; color:#b7b2a9; margin-bottom:1vw;
+}
+.instructor a{
+  font-family:'Poppins',sans-serif; font-weight:600;
+  font-size:clamp(12.5px,1.05vw,15.5px); color:#E0812B; text-decoration:none;
+}
+.instructor a:hover{ text-decoration:underline; }
+
+@media (max-width:800px){
+  .instructor{ grid-template-columns:1fr; text-align:center; }
+  .instructor__photo{ max-width:220px; margin:0 auto; }
 }

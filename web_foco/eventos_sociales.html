@@ -3,35 +3,299 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Eventos Sociales — FOCO Espacio Creativo</title>
-<meta name="description" content="Curso de fotografía de eventos sociales en FOCO — Espacio Creativo. Próximamente en Berisso.">
+<title>Taller de Eventos Sociales — FOCO Espacio Creativo</title>
+<meta name="description" content="Taller de Eventos Sociales en FOCO — Espacio Creativo. Para fotógrafos con experiencia básica que quieren profesionalizarse en bodas, quince años y eventos. Berisso.">
+
 <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
 <link rel="icon" href="favicon.ico">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&family=Lora:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="placeholder-page">
-  <header class="placeholder-page__header">
-    <a href="index.html" class="placeholder-page__logo">
+<body>
+
+  <header class="site-nav">
+    <a href="index.html" class="site-nav__logo">
       <span>FOCO</span> <span>ESPACIO CREATIVO</span>
     </a>
+    <nav class="site-nav__links">
+      <a href="index.html">Inicio</a>
+      <a href="programas.html" class="is-active">Programas</a>
+      <a href="https://wa.me/542215316757?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20cursos" target="_blank" rel="noopener">Contacto</a>
+    </nav>
   </header>
-  <main class="placeholder-page__main">
-    <div class="placeholder-page__inner">
-      <div class="placeholder-page__tag">CURSO</div>
-      <h1>Eventos Sociales</h1>
-      <p class="desc">Capturá momentos únicos y contá historias reales. Bodas, quince años y eventos.</p>
-      <div class="placeholder-page__status">EN PREPARACIÓN</div>
-      <br>
-      <a href="https://wa.me/542215316757?text=Hola%2C%20quiero%20que%20me%20avisen%20cuando%20est%C3%A9%20disponible%20el%20curso%20de%20Eventos%20Sociales" target="_blank" rel="noopener" class="placeholder-page__cta">
-        <svg viewBox="0 0 24 24" fill="white"><path d="M12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2zm5.8 14.2c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 1-2.2.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.7 1.1 1.4 1.7 2.4 2.2.2.1.3.1.5-.1.2-.2.6-.7.8-.9.2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.2.1.4.2.4.4.1.2.1.7-.1 1.3z"/></svg>
-        Avisenme cuando esté disponible
-      </a>
-      <a href="index.html" class="placeholder-page__back">← Volver al inicio</a>
+
+  <!-- HERO -->
+  <section class="course-hero">
+    <div class="course-hero__label">PROGRAMA EVENTOS SOCIALES</div>
+    <div class="course-hero__rule"></div>
+    <h1>Taller de<br><span>Eventos Sociales</span></h1>
+    <p class="course-hero__lead">Dictado por un profesional con 40 años de experiencia en eventos reales, no simulados. Para fotógrafos que ya manejan su cámara y quieren dejar de aprender el oficio a prueba y error.</p>
+
+    <div class="course-facts">
+      <div class="course-fact">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+        <div><span class="course-fact__label">Inicio</span><span class="course-fact__value">A confirmar</span></div>
+      </div>
+      <div class="course-fact">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+        <div><span class="course-fact__label">Duración</span><span class="course-fact__value">3 meses — 12 clases</span></div>
+      </div>
+      <div class="course-fact">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 7V3M16 7V3M4 11h16M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        <div><span class="course-fact__label">Frecuencia</span><span class="course-fact__value">Martes, 18 a 20 hs</span></div>
+      </div>
+      <div class="course-fact">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-6.1 7-11.5A7 7 0 105 9.5C5 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.4"/></svg>
+        <div><span class="course-fact__label">Modalidad</span><span class="course-fact__value">Presencial — Berisso</span></div>
+      </div>
+      <div class="course-fact">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 011 1v9a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1z"/><circle cx="12" cy="13.5" r="3.3"/></svg>
+        <div><span class="course-fact__label">Nivel</span><span class="course-fact__value">Con manejo básico de cámara</span></div>
+      </div>
     </div>
-  </main>
+
+    <div class="course-hero__cta">
+      <a href="#reserva" class="btn btn--solid">Pre-inscribirme</a>
+      <a href="https://wa.me/542215316757?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20del%20Taller%20de%20Eventos%20Sociales" target="_blank" rel="noopener" class="btn btn--outline">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2zm5.8 14.2c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 1-2.2.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.7 1.1 1.4 1.7 2.4 2.2.2.1.3.1.5-.1.2-.2.6-.7.8-.9.2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.2.1.4.2.4.4.1.2.1.7-.1 1.3z"/></svg>
+        Consultar por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- PARA QUIÉN ES -->
+  <section class="course-audience">
+    <div class="course-audience__inner">
+      <div class="course-audience__item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 011 1v9a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1z"/><circle cx="12" cy="13.5" r="3.3"/></svg>
+        <p>Para fotógrafos que <b>ya manejan su cámara</b> y quieren dar el salto a trabajar eventos reales.</p>
+      </div>
+      <div class="course-audience__item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+        <p>Aprendé en meses lo que <b>lleva años entender a prueba y error</b> — de la mano de quien ya lo vivió.</p>
+      </div>
+      <div class="course-audience__item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="8" r="3"/><path d="M2 20c0-3.3 3.1-6 7-6s7 2.7 7 6"/><circle cx="17" cy="9" r="2.6"/><path d="M16 14.2c2.9.4 5 2.4 5 4.8"/></svg>
+        <p><b>40 años de experiencia real</b> en bodas, quince años, comuniones y bar/bat mitzvah.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUÉ TE LLEVÁS -->
+  <section class="course-includes">
+    <div class="course-includes__head">
+      <div class="section-label">QUÉ TE LLEVÁS</div>
+      <div class="section-rule"></div>
+      <h2>De la técnica al negocio.</h2>
+    </div>
+    <div class="course-includes__grid">
+      <div class="include-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></svg>
+        <h3>Iluminación de evento</h3>
+        <p>Manejo de flash, mezcla de luces y tecnología aplicada a cada tipo de evento.</p>
+      </div>
+      <div class="include-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="8" width="18" height="11" rx="1.5"/><path d="M8 8V6a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>
+        <h3>El negocio del evento</h3>
+        <p>Presupuestos, contratos, venta, marketing y administración de un estudio fotográfico.</p>
+      </div>
+      <div class="include-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="8" r="3"/><path d="M2 20c0-3.3 3.1-6 7-6s7 2.7 7 6"/><circle cx="17" cy="9" r="2.6"/><path d="M16 14.2c2.9.4 5 2.4 5 4.8"/></svg>
+        <h3>Práctica con modelos</h3>
+        <p>Sesiones reales en estudio y exteriores, según el tipo de evento y cliente.</p>
+      </div>
+      <div class="include-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 12a8 8 0 11-3-6.2"/><path d="M20 4v5h-5"/></svg>
+        <h3>Todo tipo de eventos</h3>
+        <p>Bodas, quince años, comuniones, bar/bat mitzvah y celebraciones infantiles.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEMARIO -->
+  <section class="course-syllabus">
+    <div class="course-syllabus__head">
+      <div class="section-label">PROGRAMA</div>
+      <div class="section-rule"></div>
+      <h2>12 clases, 7 etapas.</h2>
+      <p class="course-syllabus__lead">De la teoría del oficio a la práctica real: equipamiento, luz, tipos de evento y el negocio detrás de cada trabajo.</p>
+    </div>
+    <div class="syllabus-list">
+      <div class="syllabus-item">
+        <div class="syllabus-item__num">01</div>
+        <div class="syllabus-item__body">
+          <h3>El oficio del fotógrafo de eventos</h3>
+          <span class="syllabus-item__range">Rol profesional y trato con el cliente</span>
+          <p>Conceptos básicos, el rol del fotógrafo, tipos de cliente, entrevista previa, portfolio de trabajos y contratos.</p>
+        </div>
+      </div>
+      <div class="syllabus-item">
+        <div class="syllabus-item__num">02</div>
+        <div class="syllabus-item__body">
+          <h3>Logística y equipamiento</h3>
+          <span class="syllabus-item__range">Trato con proveedores y equipo de trabajo</span>
+          <p>Cámaras, lentes, flashes, accesorios, transporte del equipo, vestimenta y resolución de problemas el día del evento.</p>
+        </div>
+      </div>
+      <div class="syllabus-item">
+        <div class="syllabus-item__num">03</div>
+        <div class="syllabus-item__body">
+          <h3>Iluminación y tecnología</h3>
+          <span class="syllabus-item__range">Técnica aplicada al evento en vivo</span>
+          <p>Tipos de luz, color, manejo del flash, mezcla de luces e iluminación adicional según el tipo de evento.</p>
+        </div>
+      </div>
+      <div class="syllabus-item">
+        <div class="syllabus-item__num">04</div>
+        <div class="syllabus-item__body">
+          <h3>Video en eventos</h3>
+          <span class="syllabus-item__range">Narrativa y equipamiento</span>
+          <p>Tipos de video, narrativa audiovisual y el equipamiento necesario para sumar este servicio.</p>
+        </div>
+      </div>
+      <div class="syllabus-item">
+        <div class="syllabus-item__num">05</div>
+        <div class="syllabus-item__body">
+          <h3>Tipos de eventos y su esencia</h3>
+          <span class="syllabus-item__range">Fiestas, religiosos, casamientos</span>
+          <p>Bautismos, comuniones, bar/bat mitzvah, quince años y casamientos (católicos, judíos y paganos) — momentos indispensables y ubicación del fotógrafo.</p>
+        </div>
+      </div>
+      <div class="syllabus-item">
+        <div class="syllabus-item__num">06</div>
+        <div class="syllabus-item__body">
+          <h3>Práctica de sesiones</h3>
+          <span class="syllabus-item__range">Estudio y exteriores</span>
+          <p>Sesiones fotográficas con modelos, adaptando el tipo de sesión según el evento y el cliente.</p>
+        </div>
+      </div>
+      <div class="syllabus-item">
+        <div class="syllabus-item__num">07</div>
+        <div class="syllabus-item__body">
+          <h3>Negocio y cierre</h3>
+          <span class="syllabus-item__range">De la entrega a la administración</span>
+          <p>Entrega de material, álbum y fotolibro, armado de presupuesto, marketing, redes sociales y administración de un estudio fotográfico.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIÉN DICTA ESTE CURSO -->
+  <section class="instructor">
+    <img src="assets/images/alejandro.jpg" alt="Alejandro Melkun" class="instructor__photo">
+    <div>
+      <div class="instructor__label">QUIÉN DICTA ESTE CURSO</div>
+      <h2>Alejandro Melkun</h2>
+      <p>40 años fotografiando eventos reales — bodas, quince años, comuniones y celebraciones religiosas en Berisso y alrededores. Este taller nace de esa experiencia de campo, no de teoría aprendida en un libro.</p>
+      <a href="https://www.melkun.com" target="_blank" rel="noopener">Ver portfolio completo →</a>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="course-testimonials">
+    <div class="course-testimonials__label">TESTIMONIOS</div>
+    <div class="course-testimonials__card">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M7 8h4v5a3 3 0 01-3 3H7"/><path d="M14 8h4v5a3 3 0 01-3 3h-1"/></svg>
+      <h3>Sumate al primer grupo de este taller</h3>
+      <p>Todavía no hay alumnos que lo cuenten en esta edición — pero detrás hay 40 años fotografiando eventos reales, no un programa recién armado sobre teoría.</p>
+    </div>
+  </section>
+
+  <!-- PRECIO + RESERVA -->
+  <section class="course-price" id="reserva">
+    <div class="course-price__card">
+      <div class="section-label">INVERSIÓN</div>
+      <div class="course-price__amount">$100.000<span>/ mes</span></div>
+      <p class="course-price__note">Valor de referencia, sujeto a confirmación antes del inicio del taller.</p>
+      <ul class="course-price__list">
+        <li>3 cuotas mensuales de $100.000</li>
+        <li>Matrícula de inscripción: $30.000 (a cuenta de la primera cuota)</li>
+        <li>Coordinamos forma de pago por WhatsApp</li>
+        <li>Grupo reducido, dictado personalmente</li>
+      </ul>
+    </div>
+
+    <div class="course-form">
+      <h2>Pre-inscripción</h2>
+      <p class="course-form__lead">Dejanos tus datos para anotarte en la lista — no implica pago ni compromiso, es solo el primer paso. Te contactamos por WhatsApp apenas confirmemos la fecha de inicio.</p>
+      <form id="reserva-form">
+        <input type="hidden" name="access_key" value="TU_ACCESS_KEY_DE_WEB3FORMS">
+        <input type="hidden" name="subject" value="Nueva pre-inscripción — Taller Eventos Sociales FOCO">
+        <label>
+          Nombre y apellido
+          <input type="text" name="nombre" required>
+        </label>
+        <label>
+          WhatsApp
+          <input type="tel" name="whatsapp" placeholder="Tu número, ej: 221 555-1234" required>
+        </label>
+        <label>
+          Email <span class="opt">(opcional)</span>
+          <input type="email" name="email">
+        </label>
+        <button type="submit" class="btn btn--solid btn--full">Enviar pre-inscripción</button>
+        <p id="reserva-status" class="course-form__status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="course-faq">
+    <div class="section-label">PREGUNTAS FRECUENTES</div>
+    <div class="section-rule"></div>
+    <div class="faq-item">
+      <h3>¿Necesito experiencia previa?</h3>
+      <p>Sí — este taller está pensado para fotógrafos que ya manejan su cámara y quieren profesionalizarse en eventos. Si estás arrancando de cero, te recomendamos primero el Curso Inicial de Imagen.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Cuándo empieza?</h3>
+      <p>La fecha todavía está por confirmarse. Pre-inscribite y te avisamos apenas la tengamos definida.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Qué necesito llevar a las clases?</h3>
+      <p>Tu propio equipo fotográfico (cámara y lentes) — este taller es de nivel intermedio, no incluye equipamiento del espacio.</p>
+    </div>
+    <div class="faq-item">
+      <h3>¿Cómo se coordina el pago?</h3>
+      <p>Por WhatsApp, de forma personal — transferencia o efectivo, como prefieras.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <div class="site-footer__logo">
+          <span class="site-footer__logo-foco">FOCO</span>
+          <span class="site-footer__logo-sep"></span>
+          <span class="site-footer__logo-sub">ESPACIO CREATIVO</span>
+        </div>
+        <p class="site-footer__tagline">Aprendé a crear con imágenes.</p>
+      </div>
+      <div class="site-footer__contact">
+        <a href="https://wa.me/542215316757?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20cursos" target="_blank" rel="noopener" class="site-footer__link">
+          <svg viewBox="0 0 24 24" fill="white"><path d="M12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2zm5.8 14.2c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 1-2.2.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.7 1.1 1.4 1.7 2.4 2.2.2.1.3.1.5-.1.2-.2.6-.7.8-.9.2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.2.1.4.2.4.4.1.2.1.7-.1 1.3z"/></svg>
+          +54 221 531-6757
+        </a>
+        <a href="https://instagram.com/estudiomelkun" target="_blank" rel="noopener" class="site-footer__link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          @estudiomelkun
+        </a>
+        <div class="site-footer__link site-footer__link--static">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-6.1 7-11.5A7 7 0 105 9.5C5 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.4"/></svg>
+          Berisso, Buenos Aires
+        </div>
+      </div>
+    </div>
+    <div class="site-footer__rule"></div>
+    <div class="site-footer__bottom">
+      <p>© 2026 FOCO Espacio Creativo. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

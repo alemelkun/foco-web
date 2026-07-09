@@ -14,7 +14,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="FOCO — Espacio Creativo">
 <meta property="og:description" content="Aprendé a crear con imágenes. Programa Inicial con inscripciones abiertas — empezá en agosto, en Berisso.">
-<meta property="og:image" content="assets/images/og-image.jpg">
+<meta property="og:image" content="https://www.focoespacio.com/assets/images/og-image.jpg">
 <meta property="og:locale" content="es_AR">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -24,6 +24,17 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="site-nav">
+    <a href="index.html" class="site-nav__logo">
+      <span>FOCO</span> <span>ESPACIO CREATIVO</span>
+    </a>
+    <nav class="site-nav__links">
+      <a href="index.html" class="is-active">Inicio</a>
+      <a href="programas.html">Programas</a>
+      <a href="https://wa.me/542215316757?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20cursos" target="_blank" rel="noopener">Contacto</a>
+    </nav>
+  </header>
+
   <section class="hero">
     <div class="hero__text">
       <div class="logo-foco">FOCO</div>
@@ -131,19 +142,20 @@
           <h3>Curso Inicial<br>de Imagen</h3>
           <p class="card__desc">La base para comprender la fotografía, desarrollar tu mirada propia y comenzar a crear imágenes.</p>
           <div class="card__divider"></div>
-          <div class="card__status card__status--active">INSCRIPCIONES ABIERTAS</div>
+          <div class="card__status card__status--active">PRE-INSCRIPCIÓN ABIERTA</div>
           <div class="card__cta">CONOCÉ EL<br>CURSO INICIAL <span class="arrow">→</span></div>
         </a>
 
-        <a href="eventos_sociales.html" class="card">
+        <a href="eventos_sociales.html" class="card card--active">
           <div class="card__icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="8" r="3"/><path d="M2 20c0-3.3 3.1-6 7-6s7 2.7 7 6"/><circle cx="17" cy="9" r="2.6"/><path d="M16 14.2c2.9.4 5 2.4 5 4.8"/></svg>
           </div>
-          <div class="card__tag">CURSO</div>
+          <div class="card__tag">TALLER</div>
           <h3>Eventos<br>Sociales</h3>
-          <p class="card__desc">Capturá momentos únicos y contá historias reales. Bodas, quince años y eventos.</p>
+          <p class="card__desc">Para fotógrafos que ya manejan su cámara y quieren profesionalizarse en bodas, quince años y eventos.</p>
           <div class="card__divider"></div>
-          <div class="card__status">EN PREPARACIÓN</div>
+          <div class="card__status card__status--active">PRE-INSCRIPCIÓN ABIERTA</div>
+          <div class="card__cta">VER PROGRAMA<br>COMPLETO <span class="arrow">→</span></div>
         </a>
 
         <a href="imagen_comercial.html" class="card">
@@ -167,6 +179,9 @@
           <div class="card__divider"></div>
           <div class="card__status">EN PREPARACIÓN</div>
         </a>
+      </div>
+      <div style="text-align:center; margin-top:2vw;">
+        <a href="programas.html" class="btn btn--outline" style="display:inline-flex;">Ver todos los programas <span class="arrow">→</span></a>
       </div>
     </div>
 

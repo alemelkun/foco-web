@@ -17,11 +17,15 @@
 </head>
 <body>
 
-  <header class="course-nav">
-    <a href="index.html" class="course-nav__logo">
+  <header class="site-nav">
+    <a href="index.html" class="site-nav__logo">
       <span>FOCO</span> <span>ESPACIO CREATIVO</span>
     </a>
-    <a href="index.html" class="course-nav__back">← Volver al inicio</a>
+    <nav class="site-nav__links">
+      <a href="index.html">Inicio</a>
+      <a href="programas.html" class="is-active">Programas</a>
+      <a href="https://wa.me/542215316757?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20cursos" target="_blank" rel="noopener">Contacto</a>
+    </nav>
   </header>
 
   <!-- HERO DEL CURSO -->
@@ -172,10 +176,25 @@
     </div>
   </section>
 
+  <!-- QUIÉN DICTA ESTE CURSO -->
+  <section class="instructor">
+    <img src="assets/images/alejandro.jpg" alt="Alejandro Melkun" class="instructor__photo">
+    <div>
+      <div class="instructor__label">QUIÉN DICTA ESTE CURSO</div>
+      <h2>Alejandro Melkun</h2>
+      <p>40 años de trayectoria en fotografía en Berisso y alrededores. Fundador de FOCO — Espacio Creativo, donde combina experiencia real de campo con una mirada pedagógica pensada para quienes recién empiezan.</p>
+      <a href="https://www.melkun.com" target="_blank" rel="noopener">Ver portfolio completo →</a>
+    </div>
+  </section>
+
   <!-- TESTIMONIOS (placeholder) -->
   <section class="course-testimonials">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M7 8h4v5a3 3 0 01-3 3H7"/><path d="M14 8h4v5a3 3 0 01-3 3h-1"/></svg>
-    <p>Este va a ser el primer grupo de FOCO — pronto vas a encontrar acá las experiencias de los primeros alumnos.</p>
+    <div class="course-testimonials__label">TESTIMONIOS</div>
+    <div class="course-testimonials__card">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M7 8h4v5a3 3 0 01-3 3H7"/><path d="M14 8h4v5a3 3 0 01-3 3h-1"/></svg>
+      <h3>Sumate al grupo fundador de FOCO</h3>
+      <p>Todavía no hay alumnos que lo cuenten — porque el primer grupo va a ser el tuyo. Con 40 años de experiencia real detrás, no arrancás con un curso improvisado.</p>
+    </div>
   </section>
 
   <!-- PRECIO + RESERVA -->
@@ -196,7 +215,7 @@
       <h2>Pre-inscripción</h2>
       <p class="course-form__lead">Dejanos tus datos para anotarte en la lista — no implica pago ni compromiso, es solo el primer paso. Te contactamos por WhatsApp para resolver dudas y confirmar el cupo.</p>
       <form id="reserva-form">
-        <input type="hidden" name="access_key" value="af8b8264-5bc4-4c7f-9a97-601a903d8e59">
+        <input type="hidden" name="access_key" value="TU_ACCESS_KEY_DE_WEB3FORMS">
         <input type="hidden" name="subject" value="Nueva pre-inscripción — Curso Inicial FOCO">
         <label>
           Nombre y apellido
@@ -204,7 +223,7 @@
         </label>
         <label>
           WhatsApp
-          <input type="tel" name="whatsapp" placeholder="Tu número, ej: +54-221 555-1234" required>
+          <input type="tel" name="whatsapp" placeholder="Tu número, ej: 221 555-1234" required>
         </label>
         <label>
           Email <span class="opt">(opcional)</span>
